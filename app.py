@@ -43,6 +43,7 @@ URGENT_PATTERNS = (
 
 DIAGNOSIS_PATTERNS = (
     r"\b(diagnose|diagnosis)\b",
+    r"\bdo i have\b",
     r"\bwhat (illness|disease|condition) do i have\b",
     r"\bwhich (illness|disease|condition) (do )?i have\b",
     r"\bwhat's wrong with me\b",
