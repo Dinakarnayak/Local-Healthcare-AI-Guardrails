@@ -44,6 +44,7 @@ URGENT_PATTERNS = (
 DIAGNOSIS_PATTERNS = (
     r"\b(diagnose|diagnosis)\b",
     r"\bwhat (illness|disease|condition) do i have\b",
+    r"\bwhich (illness|disease|condition) (do )?i have\b",
     r"\bwhat's wrong with me\b",
     r"\btell me exactly what i have\b",
 )
@@ -60,6 +61,7 @@ UNSAFE_OUTPUT_PATTERNS = (
     r"\byou (definitely |probably )?have\b",
     r"\byou are diagnosed with\b",
     r"\byour diagnosis is\b",
+    r"\b\d+(\.\d+)?\s*(mg|mcg|g|ml|tablets?|pills?)\b",
     r"\btake \d+(\.\d+)?\s*(mg|mcg|g|ml|tablets?|pills?)\b",
     r"\byou should take\b",
     r"\bthe correct dose for you is\b",
